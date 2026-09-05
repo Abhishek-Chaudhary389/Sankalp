@@ -14,16 +14,16 @@ const Home = () => {
     };
 
     const checkFeatures = [
-        'गरीबी उन्मूलन (Eliminate Poverty)',
-        'उत्तम स्वास्थ्य (Better Health)',
-        'सुलभ शिक्षा (Mass Education)'
+        'Eliminate Poverty',
+        'Better Health',
+        'Mass Education'
     ];
 
     const coreInitiatives = [
         {
-            title: 'पर्यावरण संरक्षण एवं संवर्धन',
+            title: 'पर्यावरण संवर्धन व सुशोभीकरण',
             enTitle: 'Environmental Protection',
-            desc: "वृक्षारोपण, उद्यानों का विकास और 'जल संरक्षण - पानी बचाओ' जैसे जनहित अभियान।",
+            desc: "वृक्षारोपण, उद्यानांचा विकास आणि 'पाणी अडवा, पाणी जिरवा' मोहिमा.",
             icon: (
                 <svg className="w-6 h-6 text-[#f59e0b]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 19l9 2-9-18-9 18 9-2zm0 0v-8" />
@@ -31,9 +31,9 @@ const Home = () => {
             )
         },
         {
-            title: 'शैक्षणिक विकास एवं सहायता',
+            title: 'शैक्षणिक विकास व मदत',
             enTitle: 'Educational Support',
-            desc: 'जरूरतमंद और मेधावी विद्यार्थियों को पाठ्य सामग्री, छात्रवृत्ति एवं मार्गदर्शन।',
+            desc: 'गरजू व गुणवंत विद्यार्थ्यांना शैक्षणिक साहित्य, शिष्यवृत्ती आणि मार्गदर्शन.',
             icon: (
                 <svg className="w-6 h-6 text-[#f59e0b]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-5.824-2.998 12.078 12.078 0 01.665-6.479L12 14zm-4 6v-7.5" />
@@ -41,9 +41,9 @@ const Home = () => {
             )
         },
         {
-            title: 'स्वास्थ्य सेवा एवं जन-जागरूकता',
+            title: 'आरोग्य सेवा व जनजागृती',
             enTitle: 'Healthcare Drives',
-            desc: 'निःशुल्क स्वास्थ्य जांच शिविर, रक्तदान और असहाय मरीजों को चिकित्सीय मदद।',
+            desc: 'मोफत आरोग्य तपासणी शिबिरे, रक्तदान आणि गरजू रुग्णांना वैद्यकीय मदत.',
             icon: (
                 <svg className="w-6 h-6 text-[#f59e0b]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
@@ -51,9 +51,9 @@ const Home = () => {
             )
         },
         {
-            title: 'महिला सशक्तिकरण',
+            title: 'महिला सक्षमीकरण',
             enTitle: 'Women Empowerment',
-            desc: 'महिलाओं के लिए कौशल विकास कार्यशालाएं, स्वरोजगार प्रशिक्षण और आत्मनिर्भरता।',
+            desc: 'महिलांसाठी कौशल्य विकास कार्यशाळा, रोजगारभिमुख प्रशिक्षण आणि स्वावलंबन.',
             icon: (
                 <svg className="w-6 h-6 text-[#f59e0b]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
@@ -67,15 +67,15 @@ const Home = () => {
         {
             name: 'श्री. अमोल पुंजाजी खोंदील',
             enName: 'Mr. Amol Punjaji Khondil',
-            role: 'संस्थापक / प्रबंध निदेशक',
+            role: 'संस्थापक / व्यवस्थापकीय संचालक',
             enRole: 'Founder / Managing Director',
             image: '',
             initials: 'AK'
         },
         {
-            name: 'एड. श्री. बाबुराव रेवणसिद्ध पुजारी',
+            name: 'अ‍ॅड. श्री. बाबुराव रेवणसिध्द पुजारी',
             enName: 'Adv. Mr. Baburao Revansiddha Pujari',
-            role: 'सह-संस्थापक / कानूनी सलाहकार एवं संचालक',
+            role: 'सह-संस्थापक / कायदेशीर सल्लागार व संचालक',
             enRole: 'Co-Founder / Legal Advisor & Director',
             image: '',
             initials: 'BP'
@@ -85,25 +85,25 @@ const Home = () => {
     const homeGalleryPreview = [
         {
             id: 1,
-            title: 'वृक्षारोपण अभियान (Tree Plantation Drive)',
+            title: 'वृक्षारोपण मोहीम (Tree Plantation Drive)',
             category: 'Environment',
             image: 'https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?q=80&w=700&auto=format&fit=crop'
         },
         {
             id: 2,
-            title: 'जरूरतमंद विद्यार्थियों को शैक्षणिक सामग्री वितरण',
+            title: 'गरजू विद्यार्थ्यांना शैक्षणिक साहित्य वाटप',
             category: 'Education',
             image: 'https://images.unsplash.com/photo-1509062522246-3755977927d7?q=80&w=700&auto=format&fit=crop'
         },
         {
             id: 3,
-            title: 'निःशुल्क स्वास्थ्य जांच एवं रक्तदान शिविर',
+            title: 'मोफत आरोग्य तपासणी व रक्तदान शिबीर',
             category: 'Healthcare',
             image: 'https://images.unsplash.com/photo-1584515979956-d9f6e5d09982?q=80&w=700&auto=format&fit=crop'
         },
         {
             id: 4,
-            title: 'महिला कौशल विकास एवं स्वावलंबन कार्यशाला',
+            title: 'महिला कौशल्य विकास कार्यशाळा',
             category: 'Women Empowerment',
             image: 'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?q=80&w=700&auto=format&fit=crop'
         }
@@ -133,8 +133,9 @@ const Home = () => {
                         </h1>
 
                         {/* Description Subtitle */}
-                        <p className="text-slate-600 text-base sm:text-[17px] leading-relaxed max-w-lg mt-5 mb-8 font-normal font-['Hind',sans-serif]">
-                            हम सब मिलकर एक सकारात्मक बदलाव ला सकते हैं। आपका एक छोटा सा सहयोग किसी जरूरतमंद के जीवन में नई रोशनी और उम्मीद भर सकता है।
+                        <p className="text-slate-500 text-base sm:text-[17px] leading-relaxed max-w-lg mt-5 mb-8 font-normal">
+                            Together, we can provide hope, support, and a brighter future for those in need.
+                            Your contribution can change lives.
                         </p>
 
                         {/* CTA Buttons (Donate & Video Play) */}
@@ -145,7 +146,7 @@ const Home = () => {
                                 to="/donate"
                                 className="bg-[#f59e0b] hover:bg-[#d97706] text-white font-bold text-base px-8 py-3.5 rounded-full shadow-md shadow-amber-500/20 hover:shadow-lg hover:shadow-amber-500/30 transition-all duration-200 active:scale-95"
                             >
-                                दान करें (Donate)
+                                देणगी द्या (Donate)
                             </Link>
 
                             {/* Play Video Circle Button */}
@@ -167,7 +168,7 @@ const Home = () => {
                         </div>
 
                         {/* Bottom 3 Feature Checkmarks */}
-                        <div className="flex flex-wrap items-center gap-4 sm:gap-6 pt-1">
+                        <div className="flex flex-wrap items-center gap-5 sm:gap-7 pt-1">
                             {checkFeatures.map((item) => (
                                 <div key={item} className="flex items-center gap-2">
                                     <div className="w-5 h-5 rounded-full bg-[#f59e0b] text-white flex items-center justify-center shrink-0">
@@ -175,7 +176,7 @@ const Home = () => {
                                             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="3.5" d="M5 13l4 4L19 7" />
                                         </svg>
                                     </div>
-                                    <span className="text-slate-700 font-semibold text-xs sm:text-sm font-['Hind',sans-serif]">
+                                    <span className="text-slate-700 font-semibold text-sm sm:text-[15px]">
                                         {item}
                                     </span>
                                 </div>
@@ -243,22 +244,22 @@ const Home = () => {
             {/* ======================================================== */}
             {/* KEY INITIATIVES & MISSION TEASER */}
             {/* ======================================================== */}
-            <section className="bg-slate-50 py-14 sm:py-16 border-t border-slate-100">
+            <section className="bg-slate-50 py-16 border-t border-slate-100">
                 <div className="max-w-[1240px] mx-auto px-4 sm:px-6 lg:px-8">
 
                     {/* Motto / Slogan Banner */}
                     <div className="text-center max-w-3xl mx-auto mb-12">
-                        <div className="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-amber-50 border border-amber-200/80 mb-3 shadow-2xs">
+                        <div className="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-amber-50 border border-amber-200/80 mb-3">
                             <span className="w-2 h-2 rounded-full bg-[#f59e0b] animate-ping" />
                             <span className="text-xs font-bold text-[#b45309] uppercase tracking-wider font-['Hind',sans-serif]">
-                                हमारा ध्येय वाक्य (Our Motto)
+                                आमचे ब्रीदवाक्य
                             </span>
                         </div>
-                        <h2 className="text-2xl sm:text-3xl lg:text-4xl font-black text-slate-900 font-['Hind',sans-serif] leading-tight">
-                            "निस्वार्थ सेवा, सतत विकास और समाज परिवर्तन का दृढ़ संकल्प!"
+                        <h2 className="text-2xl sm:text-3xl font-black text-slate-900 font-['Hind',sans-serif]">
+                            "निस्वार्थ सेवा, शाश्वत विकास आणि समाजपरिवर्तनाचा दृढ संकल्प!"
                         </h2>
-                        <p className="text-slate-500 text-xs sm:text-sm mt-2.5 font-['Hind',sans-serif]">
-                            (कंपनी अधिनियम, 2013 की धारा 8 के अंतर्गत पंजीकृत गैर-लाभकारी समाजसेवी संस्था)
+                        <p className="text-slate-500 text-sm mt-2">
+                            (कंपनी कायदा, २०१३ च्या कलम ८ अंतर्गत नोंदणीकृत समाजसेवी संस्था)
                         </p>
                     </div>
 
@@ -288,7 +289,7 @@ const Home = () => {
                                         {item.enTitle}
                                     </span>
 
-                                    {/* Hindi Title */}
+                                    {/* Marathi Title */}
                                     <h3 className="font-black text-slate-900 text-lg sm:text-xl font-['Hind',sans-serif] leading-snug group-hover:text-[#f59e0b] transition-colors mb-2.5">
                                         {item.title}
                                     </h3>
@@ -305,7 +306,7 @@ const Home = () => {
                                         to="/about"
                                         className="inline-flex items-center gap-1.5 hover:text-[#d97706] transition-all group-hover:gap-2.5"
                                     >
-                                        <span className="font-['Hind',sans-serif]">अधिक जानें</span>
+                                        <span className="font-['Hind',sans-serif]">अधिक जाणून घ्या</span>
                                         <span className="text-sm transition-transform duration-200">→</span>
                                     </Link>
                                 </div>
@@ -317,7 +318,7 @@ const Home = () => {
             </section>
 
             {/* ======================================================== */}
-            {/* LEADERSHIP / FOUNDERS & TRUSTEES SECTION (Requested by User) */}
+            {/* LEADERSHIP / FOUNDERS & TRUSTEES SECTION */}
             {/* ======================================================== */}
             <section className="bg-white py-14 sm:py-16 border-t border-slate-100">
                 <div className="max-w-[1240px] mx-auto px-4 sm:px-6 lg:px-8">
@@ -328,7 +329,7 @@ const Home = () => {
                             LEADERSHIP
                         </span>
                         <h2 className="text-2xl sm:text-3xl lg:text-4xl font-extrabold text-[#0f172a] mt-1 font-['Hind',sans-serif]">
-                            संस्था के संस्थापक / संचालक <span className="text-[#f59e0b] text-xl sm:text-2xl block sm:inline">(Founders & Trustees)</span>
+                            संस्थेचे संस्थापक / संचालक <span className="text-[#f59e0b] text-xl sm:text-2xl block sm:inline">(Founders & Trustees)</span>
                         </h2>
                     </div>
 
@@ -367,7 +368,7 @@ const Home = () => {
                                 {/* Founder Details */}
                                 <div className="space-y-1.5 flex-grow">
                                     <span className="inline-block px-2.5 py-0.5 rounded-full bg-amber-50 text-[#b45309] font-bold text-[10px] uppercase tracking-wider border border-amber-200/60 font-['Hind',sans-serif]">
-                                        संस्थापक मंडल
+                                        संस्थापक मंडळ
                                     </span>
                                     <h3 className="text-lg sm:text-xl font-black text-slate-900 font-['Hind',sans-serif] leading-tight group-hover:text-[#f59e0b] transition-colors">
                                         {founder.name}
@@ -390,7 +391,7 @@ const Home = () => {
             </section>
 
             {/* ======================================================== */}
-            {/* HOME GALLERY PREVIEW SECTION */}
+            {/* HOME GALLERY PREVIEW SECTION (With View All Navigation) */}
             {/* ======================================================== */}
             <section className="bg-slate-50/60 py-16 border-t border-slate-100">
                 <div className="max-w-[1240px] mx-auto px-4 sm:px-6 lg:px-8">
@@ -401,14 +402,14 @@ const Home = () => {
                             <div className="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-amber-50 border border-amber-200/80 mb-3">
                                 <span className="w-2 h-2 rounded-full bg-[#f59e0b] animate-ping" />
                                 <span className="text-xs font-bold text-[#b45309] uppercase tracking-wider font-['Hind',sans-serif]">
-                                    कार्य छायाचित्र • Photo Gallery
+                                    कार्य छायाचित्रे • Photo Gallery
                                 </span>
                             </div>
                             <h2 className="text-3xl sm:text-4xl font-black text-[#0f172a] tracking-tight font-['Hind',sans-serif]">
-                                हमारे सामाजिक कार्यों की <span className="text-[#f59e0b]">झलकियाँ</span>
+                                आमच्या सामाजिक उपक्रमांची <span className="text-[#f59e0b]">गॅलरी</span>
                             </h2>
-                            <p className="text-slate-500 text-sm mt-2 max-w-xl font-['Hind',sans-serif]">
-                                वृक्षारोपण, स्वास्थ्य जांच शिविर और छात्र सहायता अभियानों की कुछ प्रेरणादायी तस्वीरें।
+                            <p className="text-slate-500 text-sm mt-2 max-w-xl">
+                                Glimpses of tree plantation drives, health checkup camps, and educational support initiatives.
                             </p>
                         </div>
 
@@ -418,7 +419,7 @@ const Home = () => {
                                 to="/gallery"
                                 className="inline-flex items-center gap-2 px-6 py-3 rounded-full bg-[#f59e0b] hover:bg-[#d97706] text-white font-bold text-sm shadow-sm hover:shadow transition-all active:scale-95 whitespace-nowrap"
                             >
-                                <span>सभी फ़ोटो देखें (View All Gallery)</span>
+                                <span>सर्व फोटो पहा (View All Gallery)</span>
                                 <span>→</span>
                             </Link>
                         </div>
@@ -447,7 +448,7 @@ const Home = () => {
                                         {item.title}
                                     </h3>
                                     <div className="pt-3 mt-3 border-t border-slate-100 flex items-center justify-between text-xs text-[#f59e0b] font-bold">
-                                        <span>फ़ोटो देखें</span>
+                                        <span>View Photo</span>
                                         <span>→</span>
                                     </div>
                                 </div>
@@ -455,13 +456,13 @@ const Home = () => {
                         ))}
                     </div>
 
-                    {/* Bottom Centered "View All" Button for Mobile */}
+                    {/* Bottom Centered "View All" Button for Mobile / Quick Access */}
                     <div className="text-center mt-10 md:hidden">
                         <Link
                             to="/gallery"
                             className="inline-flex items-center gap-2 px-8 py-3.5 rounded-full bg-[#f59e0b] hover:bg-[#d97706] text-white font-bold text-sm shadow-md transition-all active:scale-95"
                         >
-                            <span>सभी फ़ोटो देखें (View All Gallery)</span>
+                            <span>सर्व फोटो पहा (View All Gallery)</span>
                             <span>→</span>
                         </Link>
                     </div>
@@ -469,7 +470,7 @@ const Home = () => {
                 </div>
             </section>
 
-            {/* Video Modal (Pop-up when play button clicked) */}
+            {/* Video Modal (Optional Pop-up when play button clicked) */}
             {showVideoModal && (
                 <div className="fixed inset-0 z-50 bg-black/75 backdrop-blur-xs flex items-center justify-center p-4">
                     <div className="bg-white rounded-2xl max-w-lg w-full p-5 shadow-2xl relative animate-in fade-in zoom-in duration-200">
@@ -490,7 +491,7 @@ const Home = () => {
                                         <path d="M8 5v14l11-7z" />
                                     </svg>
                                 </div>
-                                <p className="font-semibold text-sm">समाज परिवर्तन का संकल्प</p>
+                                <p className="font-semibold text-sm">Transforming Lives Together</p>
                                 <p className="text-[11px] text-slate-400 mt-0.5 font-['Hind',sans-serif]">संकल्प जनसेवा फाउंडेशन</p>
                             </div>
                         </div>

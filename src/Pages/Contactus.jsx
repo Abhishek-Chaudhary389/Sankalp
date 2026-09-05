@@ -20,7 +20,7 @@ const Contactus = () => {
     };
 
     return (
-        <div id="donate" className="w-full bg-slate-50/50 py-12 lg:py-16 text-slate-800">
+        <div id="contact" className="w-full bg-slate-50/50 py-12 lg:py-16 text-slate-800">
             <div className="max-w-[1240px] mx-auto px-4 sm:px-6 lg:px-8">
 
                 {/* Header */}
@@ -31,7 +31,7 @@ const Contactus = () => {
                             संपर्क व सहयोग
                         </span>
                     </div>
-                    <h1 className="text-4xl sm:text-5xl font-black text-[#0f172a] tracking-tight">
+                    <h1 className="text-4xl sm:text-5xl font-black text-[#0f172a] tracking-tight font-['Hind',sans-serif]">
                         आमच्याशी संपर्क साधा <span className="text-[#f59e0b]">(Contact Us)</span>
                     </h1>
                     <p className="text-slate-600 text-base sm:text-lg mt-3 font-normal leading-relaxed">
@@ -147,13 +147,13 @@ const Contactus = () => {
 
                             <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
                                 <div>
-                                    <label className="block text-xs font-bold text-slate-700 uppercase mb-2">
+                                    <label className="block text-xs font-bold text-slate-700 uppercase mb-2 font-['Hind',sans-serif]">
                                         आपले नाव (Full Name) *
                                     </label>
                                     <input
                                         type="text"
                                         required
-                                        placeholder="e.g. Ramesh Patil"
+                                        placeholder="उदा. रमेश पाटील"
                                         value={formData.name}
                                         onChange={(e) => setFormData({ ...formData, name: e.target.value })}
                                         className="w-full px-4 py-3 rounded-2xl bg-slate-50 border border-slate-200 text-slate-800 text-sm focus:outline-none focus:ring-2 focus:ring-[#f59e0b] focus:bg-white transition"
@@ -161,13 +161,13 @@ const Contactus = () => {
                                 </div>
 
                                 <div>
-                                    <label className="block text-xs font-bold text-slate-700 uppercase mb-2">
+                                    <label className="block text-xs font-bold text-slate-700 uppercase mb-2 font-['Hind',sans-serif]">
                                         मोबाईल नंबर (Phone) *
                                     </label>
                                     <input
                                         type="tel"
                                         required
-                                        placeholder="e.g. +91 9876543210"
+                                        placeholder="उदा. +91 9876543210"
                                         value={formData.phone}
                                         onChange={(e) => setFormData({ ...formData, phone: e.target.value })}
                                         className="w-full px-4 py-3 rounded-2xl bg-slate-50 border border-slate-200 text-slate-800 text-sm focus:outline-none focus:ring-2 focus:ring-[#f59e0b] focus:bg-white transition"
@@ -177,12 +177,12 @@ const Contactus = () => {
 
                             <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
                                 <div>
-                                    <label className="block text-xs font-bold text-slate-700 uppercase mb-2">
+                                    <label className="block text-xs font-bold text-slate-700 uppercase mb-2 font-['Hind',sans-serif]">
                                         ईमेल (Email Address)
                                     </label>
                                     <input
                                         type="email"
-                                        placeholder="e.g. ramesh@gmail.com"
+                                        placeholder="उदा. ramesh@gmail.com"
                                         value={formData.email}
                                         onChange={(e) => setFormData({ ...formData, email: e.target.value })}
                                         className="w-full px-4 py-3 rounded-2xl bg-slate-50 border border-slate-200 text-slate-800 text-sm focus:outline-none focus:ring-2 focus:ring-[#f59e0b] focus:bg-white transition"
@@ -190,7 +190,7 @@ const Contactus = () => {
                                 </div>
 
                                 <div>
-                                    <label className="block text-xs font-bold text-slate-700 uppercase mb-2">
+                                    <label className="block text-xs font-bold text-slate-700 uppercase mb-2 font-['Hind',sans-serif]">
                                         विषय (Subject)
                                     </label>
                                     <select
@@ -198,7 +198,7 @@ const Contactus = () => {
                                         onChange={(e) => setFormData({ ...formData, subject: e.target.value })}
                                         className="w-full px-4 py-3 rounded-2xl bg-slate-50 border border-slate-200 text-slate-800 text-sm focus:outline-none focus:ring-2 focus:ring-[#f59e0b] focus:bg-white transition"
                                     >
-                                        <option value="">Select Category</option>
+                                        <option value="">श्रेणी निवडा (Select Category)</option>
                                         <option value="donation">देणगी / Daan / Donation</option>
                                         <option value="volunteer">स्वयंसेवक सहभाग (Volunteer)</option>
                                         <option value="educational">शैक्षणिक मदत मागणी</option>
@@ -209,7 +209,7 @@ const Contactus = () => {
                             </div>
 
                             <div>
-                                <label className="block text-xs font-bold text-slate-700 uppercase mb-2">
+                                <label className="block text-xs font-bold text-slate-700 uppercase mb-2 font-['Hind',sans-serif]">
                                     आपला संदेश (Your Message) *
                                 </label>
                                 <textarea

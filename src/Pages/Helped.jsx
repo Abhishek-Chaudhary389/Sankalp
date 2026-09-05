@@ -5,7 +5,7 @@ const Helped = () => {
   const impactStats = [
     {
       number: '5,000+',
-      label: 'विद्यार्थियों को शैक्षणिक सहायता',
+      label: 'विद्यार्थ्यांना शैक्षणिक मदत',
       enLabel: 'Students Supported with Kits & Fees',
       icon: (
         <svg className="w-8 h-8 text-[#f59e0b]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -15,7 +15,7 @@ const Helped = () => {
     },
     {
       number: '10,000+',
-      label: 'वृक्षारोपण एवं संरक्षण',
+      label: 'वृक्षारोपण व संवर्धन',
       enLabel: 'Trees Planted & Maintained',
       icon: (
         <svg className="w-8 h-8 text-emerald-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -25,7 +25,7 @@ const Helped = () => {
     },
     {
       number: '3,500+',
-      label: 'निःशुल्क स्वास्थ्य जांच लाभार्थी',
+      label: 'मोफत आरोग्य तपासणी लाभार्थी',
       enLabel: 'Patients Benefited from Health Camps',
       icon: (
         <svg className="w-8 h-8 text-rose-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -35,7 +35,7 @@ const Helped = () => {
     },
     {
       number: '1,200+',
-      label: 'महिला कौशल विकास प्रशिक्षण',
+      label: 'महिला कौशल्य विकास प्रशिक्षण',
       enLabel: 'Women Empowered with Vocational Skills',
       icon: (
         <svg className="w-8 h-8 text-amber-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -47,21 +47,21 @@ const Helped = () => {
 
   const stories = [
     {
-      name: 'रोहित गायकवाड़ (Rohit Gaikwad)',
-      category: 'शैक्षणिक छात्रवृत्ति',
-      story: 'संकल्प जनसेवा फाउंडेशन की छात्रवृत्ति से कॉलेज की पढ़ाई पूरी की और आईटी क्षेत्र में सफल करियर की शुरुआत की।',
+      name: 'रोहित गायकवाड (Rohit Gaikwad)',
+      category: 'शैक्षणिक शिष्यवृत्ती',
+      story: 'संकल्प जनसेवा फाउंडेशनच्या शैक्षणिक शिष्यवृत्तीमुळे महाविद्यालयीन शिक्षण पूर्ण करून आयटी क्षेत्रात यशस्वी करिअर घडवले.',
       image: 'https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?q=80&w=600&auto=format&fit=crop'
     },
     {
-      name: 'सुनीता ताई पाटिल (Sunita Patil)',
+      name: 'सुनीता ताई पाटील (Sunita Patil)',
       category: 'महिला स्वावलंबन',
-      story: 'फाउंडेशन के निःशुल्क सिलाई व कौशल प्रशिक्षण से खुद का काम शुरू कर परिवार को आर्थिक संबल प्रदान किया।',
+      story: 'फाउंडेशनच्या मोफत शिवणकाम व कौशल्य प्रशिक्षण वर्गातून स्वतःचा लघुउद्योग सुरू करून कुटुंबाला आर्थिक स्थैर्य मिळवून दिले.',
       image: 'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?q=80&w=600&auto=format&fit=crop'
     },
     {
-      name: 'जल संरक्षण परियोजना - ग्रामीण क्षेत्र',
-      category: 'जल एवं पर्यावरण संरक्षण',
-      story: 'जल संवर्धन और चेक डैम अभियानों के माध्यम से ग्रामीण क्षेत्र में भूजल स्तर बढ़ाकर किसानों को निरंतर जल उपलब्धता सुनिश्चित कराई।',
+      name: 'पाणी संवर्धन प्रकल्प - ग्रामीण परिसर',
+      category: 'जल व पर्यावरण संवर्धन',
+      story: 'पाणी अडवा, पाणी जिरवा मोहिमेतून दुष्काळग्रस्त भागात भूजल पातळी वाढवून शेतकरी बांधवांना कायमस्वरूपी पाण्याचा आधार दिला.',
       image: 'https://images.unsplash.com/photo-1593113598332-cd288d649433?q=80&w=600&auto=format&fit=crop'
     }
   ];
@@ -75,14 +75,14 @@ const Helped = () => {
           <div className="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-amber-50 border border-amber-200/80 mb-3">
             <span className="w-2 h-2 rounded-full bg-[#f59e0b] animate-ping" />
             <span className="text-xs font-bold text-[#b45309] uppercase tracking-wider font-['Hind',sans-serif]">
-              प्रत्यक्ष मदद एवं प्रभाव
+              प्रत्यक्ष मदत व कार्य प्रभाव
             </span>
           </div>
           <h1 className="text-3xl sm:text-4xl lg:text-5xl font-black text-[#0f172a] tracking-tight font-['Hind',sans-serif]">
-            हमारी सेवा व सहायता <span className="text-[#f59e0b]">(Impact & Stories)</span>
+            आमचे कार्य प्रभाव व यशोगाथा <span className="text-[#f59e0b]">(Impact & Stories)</span>
           </h1>
-          <p className="text-slate-600 text-sm sm:text-base lg:text-lg mt-3 max-w-2xl mx-auto leading-relaxed font-['Hind',sans-serif]">
-            हमारा उद्देश्य केवल मदद करना नहीं, बल्कि जीवन को सकारात्मक रूप से बदलना और आत्मनिर्भर बनाना है।
+          <p className="text-slate-600 text-sm sm:text-base lg:text-lg mt-3 max-w-2xl mx-auto leading-relaxed">
+            प्रत्येक मदत गरजू घटकांपर्यंत पोहोचवून त्यांच्या जीवनात सकारात्मक व शाश्वत बदल घडवणे हेच आमचे उद्दिष्ट आहे.
           </p>
         </div>
 
@@ -118,7 +118,7 @@ const Helped = () => {
               Stories of Change
             </span>
             <h2 className="text-2xl sm:text-3xl lg:text-4xl font-extrabold text-[#0f172a] mt-1 font-['Hind',sans-serif]">
-              सफलता व प्रेरणा की कहानियां
+              समाधान व परिवर्तनाच्या यशोगाथा
             </h2>
           </div>
 
@@ -148,7 +148,7 @@ const Helped = () => {
                     </p>
                   </div>
                   <div className="pt-4 mt-4 border-t border-slate-100 flex items-center gap-2 text-amber-600 text-xs font-bold">
-                    <span>सकारात्मक बदलाव</span>
+                    <span>सकारात्मक बदल</span>
                     <span>✓</span>
                   </div>
                 </div>
@@ -161,10 +161,10 @@ const Helped = () => {
         <div className="bg-gradient-to-r from-amber-500 via-amber-600 to-orange-600 rounded-3xl p-8 sm:p-12 text-white shadow-xl flex flex-col md:flex-row items-center justify-between gap-8 text-center md:text-left">
           <div>
             <h3 className="text-2xl sm:text-3xl font-black font-['Hind',sans-serif]">
-              क्या आप भी इस नेक पहल का हिस्सा बनना चाहते हैं?
+              तुम्हीही या सामाजिक परिवर्तनाचा भाग होऊ शकता!
             </h3>
             <p className="text-amber-100 text-sm sm:text-base mt-2 font-['Hind',sans-serif]">
-              आपका थोड़ा सा समय या आर्थिक सहयोग किसी के जीवन में बड़ा बदलाव ला सकता है।
+              तुमचे छोटेसे योगदान किंवा सहभाग अनेकांच्या जीवनात मोठी उमेद निर्माण करू शकते.
             </p>
           </div>
           <div className="flex flex-wrap items-center gap-4 shrink-0">
@@ -172,13 +172,13 @@ const Helped = () => {
               to="/donate"
               className="bg-white text-amber-600 hover:bg-amber-50 font-bold px-8 py-3.5 rounded-full shadow-md transition-all active:scale-95 text-sm sm:text-base"
             >
-              दान करें (Donate Now)
+              देणगी द्या (Donate Now)
             </Link>
             <Link
               to="/contact"
               className="bg-black/20 hover:bg-black/30 border border-white/30 text-white font-bold px-7 py-3.5 rounded-full transition-all active:scale-95 text-sm sm:text-base"
             >
-              संपर्क करें (Contact Us)
+              संपर्क साधा (Contact Us)
             </Link>
           </div>
         </div>

@@ -27,11 +27,11 @@ const Footer = () => {
             </Link>
 
             <blockquote className="text-xs sm:text-[13px] text-amber-200/90 font-['Hind',sans-serif] leading-snug font-medium italic border-l-2 border-[#f59e0b] pl-3 py-0.5">
-              "निस्वार्थ सेवा, सतत विकास और समाज परिवर्तन का दृढ़ संकल्प!"
+              "निस्वार्थ सेवा, शाश्वत विकास आणि समाजपरिवर्तनाचा दृढ संकल्प!"
             </blockquote>
 
-            <p className="text-xs text-slate-400 leading-relaxed max-w-sm font-['Hind',sans-serif]">
-              संकल्प जनसेवा फाउंडेशन कंपनी अधिनियम, 2013 की धारा 8 के तहत पंजीकृत एक गैर-लाभकारी सामाजिक संस्था है, जो समाज के उत्थान के लिए समर्पित है।
+            <p className="text-xs text-slate-400 leading-relaxed max-w-sm">
+              Sankalp Janseva Foundation is a registered social welfare organization under Section 8 of the Companies Act, 2013, dedicated to grassroot community upliftment.
             </p>
 
             <div className="pt-1">
@@ -46,27 +46,27 @@ const Footer = () => {
             <h4 className="font-bold text-white text-xs sm:text-sm uppercase tracking-wider mb-3 sm:mb-4 text-slate-200">
               Quick Links
             </h4>
-            <ul className="space-y-2 sm:space-y-2.5 text-xs font-['Hind',sans-serif]">
-              <li><Link to="/" className="hover:text-[#f59e0b] transition flex items-center gap-1.5"><span className="text-slate-600">›</span> Home (होम)</Link></li>
-              <li><Link to="/about" className="hover:text-[#f59e0b] transition flex items-center gap-1.5"><span className="text-slate-600">›</span> About Us (हमारे बारे में)</Link></li>
-              <li><Link to="/gallery" className="hover:text-[#f59e0b] transition flex items-center gap-1.5"><span className="text-slate-600">›</span> Photo Gallery (फ़ोटो गैलरी)</Link></li>
-              <li><Link to="/news" className="hover:text-[#f59e0b] transition flex items-center gap-1.5"><span className="text-slate-600">›</span> News & Updates (ताज़ा समाचार)</Link></li>
-              <li><Link to="/helped" className="hover:text-[#f59e0b] transition flex items-center gap-1.5"><span className="text-slate-600">›</span> People Helped (प्रभाव व मदद)</Link></li>
-              <li><Link to="/contact" className="hover:text-[#f59e0b] transition flex items-center gap-1.5"><span className="text-slate-600">›</span> Contact Us (संपर्क करें)</Link></li>
+            <ul className="space-y-2 sm:space-y-2.5 text-xs">
+              <li><Link to="/" className="hover:text-[#f59e0b] transition flex items-center gap-1.5"><span className="text-slate-600">›</span> Home (मुख्यपृष्ठ)</Link></li>
+              <li><Link to="/about" className="hover:text-[#f59e0b] transition flex items-center gap-1.5"><span className="text-slate-600">›</span> About Us (आमच्याबद्दल)</Link></li>
+              <li><Link to="/gallery" className="hover:text-[#f59e0b] transition flex items-center gap-1.5"><span className="text-slate-600">›</span> Photo Gallery (गॅलरी)</Link></li>
+              <li><Link to="/news" className="hover:text-[#f59e0b] transition flex items-center gap-1.5"><span className="text-slate-600">›</span> News & Updates (बातम्या)</Link></li>
+              <li><Link to="/helped" className="hover:text-[#f59e0b] transition flex items-center gap-1.5"><span className="text-slate-600">›</span> People Helped (लाभार्थी)</Link></li>
+              <li><Link to="/contact" className="hover:text-[#f59e0b] transition flex items-center gap-1.5"><span className="text-slate-600">›</span> Contact Us (संपर्क)</Link></li>
             </ul>
           </div>
 
           {/* Col 4: Key Initiatives */}
           <div>
             <h4 className="font-bold text-white text-xs sm:text-sm uppercase tracking-wider mb-3 sm:mb-4 text-slate-200 font-['Hind',sans-serif]">
-              प्रमुख कार्यक्षेत्र
+              प्रमुख कार्यक्षेत्रे
             </h4>
             <ul className="space-y-2 sm:space-y-2.5 text-xs font-['Hind',sans-serif]">
-              <li className="flex items-center gap-2"><span className="w-1.5 h-1.5 rounded-full bg-[#f59e0b] shrink-0" /> पर्यावरण संरक्षण एवं वृक्षारोपण</li>
-              <li className="flex items-center gap-2"><span className="w-1.5 h-1.5 rounded-full bg-[#f59e0b] shrink-0" /> शैक्षणिक विकास एवं छात्रवृत्ति</li>
-              <li className="flex items-center gap-2"><span className="w-1.5 h-1.5 rounded-full bg-[#f59e0b] shrink-0" /> निःशुल्क स्वास्थ्य जांच व रक्तदान</li>
-              <li className="flex items-center gap-2"><span className="w-1.5 h-1.5 rounded-full bg-[#f59e0b] shrink-0" /> महिला सशक्तिकरण एवं कौशल विकास</li>
-              <li className="flex items-center gap-2"><span className="w-1.5 h-1.5 rounded-full bg-[#f59e0b] shrink-0" /> सर्वसमावेशी समाज कल्याण</li>
+              <li className="flex items-center gap-2"><span className="w-1.5 h-1.5 rounded-full bg-[#f59e0b] shrink-0" /> पर्यावरण संवर्धन व वृक्षारोपण</li>
+              <li className="flex items-center gap-2"><span className="w-1.5 h-1.5 rounded-full bg-[#f59e0b] shrink-0" /> शैक्षणिक विकास व शिष्यवृत्ती</li>
+              <li className="flex items-center gap-2"><span className="w-1.5 h-1.5 rounded-full bg-[#f59e0b] shrink-0" /> मोफत आरोग्य तपासणी व रक्तदान</li>
+              <li className="flex items-center gap-2"><span className="w-1.5 h-1.5 rounded-full bg-[#f59e0b] shrink-0" /> महिला सक्षमीकरण व कौशल्य</li>
+              <li className="flex items-center gap-2"><span className="w-1.5 h-1.5 rounded-full bg-[#f59e0b] shrink-0" /> सर्वसमावेशक समाजविकास</li>
             </ul>
           </div>
 
@@ -91,7 +91,7 @@ const Footer = () => {
                 to="/donate"
                 className="w-full inline-block text-center bg-[#f59e0b] hover:bg-[#d97706] text-white font-bold text-xs py-2.5 px-4 rounded-xl shadow-xs active:scale-95 transition"
               >
-                दान करें (Donate Now) →
+                देणगी द्या (Donate Now) →
               </Link>
             </div>
           </div>
